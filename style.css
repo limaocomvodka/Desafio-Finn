@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(44, 179, 243, 1);
+}
+h1{
+  position:relative;
+  top: 40px;
+  font-size:4.5rem;
+  left:520px;
+}
+h4{
+  position:relative;
+  top:50px;
+  font-size: 1.6rem;
+  left:480px;
+}
+.corpo{
+    position:relative;
+    height: 400px;
+    width: 716px;
+    left: 343px;
+    top: 100px;
+    border-radius: 40px 40px 0 0;
+    background:white;
+    z-index:2;
+}
+.rosto{
+    position: absolute;
+    height: 300px;
+    width: 482px;
+    left: 467px;
+    top: 275px;
+    background: rgba(255, 225, 201, 1);
+    border-radius: 900px 900px 900px 900px;
+    z-index:5;
+}
+.olhoE{
+    position:absolute;
+    height: 45px;
+    width: 45px;
+    left: 580px;
+    top: 335px;
+    border-radius: 100px;
+    background: black;
+    z-index:7;
+}
+.olhoD{
+    position:absolute;
+    height: 45px;
+    width: 45px;
+    right: 530px;
+    top: 335px;
+    border-radius: 100px;
+    background: black;
+    z-index:7;
+}
+.email{
+    position:absolute;
+    height:30px;
+    left:620px;
+    top:450px;
+    z-index:9;
+    border:2px solid rgb(32, 32, 32);
+}
+.senha{
+    position:absolute;
+    height:30px;
+    left:620px;
+    top:480px;
+    z-index:10;
+    border:2px solid rgb(32, 32, 32);
+}
+button{
+    position:absolute;
+    left:630px;
+    height:50px;
+    width:120px;
+    top:620px;
+    background-color: limegreen;
+    border:none;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.2em;
+    box-shadow: black;
+}

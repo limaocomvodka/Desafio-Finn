@@ -35,7 +35,7 @@ h4{
     left: 467px;
     top: 275px;
     background: rgba(255, 225, 201, 1);
-    border-radius: 900px 900px 900px 900px;
+    border-radius: 50%;
     z-index:5;
 }
 .olhoE{
